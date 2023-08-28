@@ -1,0 +1,6 @@
+{
+    "^\\d{5}NG\\d{3}$|^\\d{2}NG\\d{6}$": "affairs staff motorcycle",
+    "^\\d{5}QT\\d{3}$|^\\d{2}QT\\d{6}$": "international organization staff motorcycle",
+    "^\\d{5}CV\\d{3}$|^\\d{2}CV\\d{6}$": "administrative technical staff motorcycle",
+    "^\\d{5}NN\\d{3}$|^\\d{2}NN\\d{6}$": "foreign motorcycle"
+}

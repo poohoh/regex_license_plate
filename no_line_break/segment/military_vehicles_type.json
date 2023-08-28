@@ -1,0 +1,7 @@
+{
+    "^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\d{4}$": "military cars and tractors",
+    "^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\d{3}$": "military motorcycles",
+    "^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\d{3}RM$": "military trailers",
+    "^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\d{3}BM$": "military semi trailers",
+    "^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(S|L|X)\\d{4}$": "special purpose motorcycles"
+}

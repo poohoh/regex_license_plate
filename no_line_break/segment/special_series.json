@@ -1,0 +1,12 @@
+{
+    "^\\d{2}CD\\d{5}$|^\\d{2}CD\\d{4}$": "public security motorcycle",
+    "^\\d{2}KT\\d{5}$|^\\d{2}KT\\d{4}$": "military enterprise",
+    "^\\d{2}LD\\d{5}$|^\\d{2}LD\\d{4}$": "foreign enterprise",
+    "^\\d{2}DA\\d{5}$|^\\d{2}DA\\d{4}$": "project management",
+    "^\\d{2}RM\\d{5}$|^\\d{2}RM\\d{4}$": "trailer",
+    "^\\d{2}MK[1-9]\\d{5}$|^\\d{2}MK[1-9]\\d{4}$": "tractor",
+    "^\\d{2}MĐ[1-9]\\d{5}$|^\\d{2}MĐ[1-9]\\d{4}$": "electric motorcycle",
+    "^\\d{2}TĐ\\d{5}$|^\\d{2}TĐ\\d{4}$": "domestic pilot deployment",
+    "^\\d{2}HC\\d{5}$|^\\d{2}HC\\d{4}$": "limited operational car",
+    "^\\d{7}$": "event vehicle"
+}

@@ -1,0 +1,9 @@
+{
+    "^\\d{5}NG01$|^\\d{2}NG\\d{3}01$": "affairs ambassador car",
+    "^\\d{5}NG02$|^\\d{2}NG\\d{3}02$": "affairs vice ambassador car",
+    "^\\d{5}NG(0[3-9]|[1-9][0-9])$|^\\d{2}NG\\d{3}(0[3-9]|[1-9][0-9])$": "affairs staff car",
+    "^\\d{5}QT01$|^\\d{2}QT\\d{3}01$": "international organization representative car",
+    "^\\d{5}QT(0[2-9]|[1-9][0-9])$|^\\d{2}QT\\d{3}(0[2-9]|[1-9][0-9])$": "international organization staff car",
+    "^\\d{5}CV\\d{2}$|^\\d{2}CV\\d{5}$": "administrative technical staff car",
+    "^\\d{5}NN\\d{2}$|^\\d{2}NN\\d{5}$": "foreign car"
+}
