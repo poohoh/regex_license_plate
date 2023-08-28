@@ -1,0 +1,9 @@
+{
+    "military_vehicle_type": {
+        "^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\d{4}$|^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/\\d{4}$": "Military Car and Tractor",
+        "^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\d{3}$|^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/\\d{3}$": "Military Motorcycle",
+        "^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\d{3}RM$|^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/\\d{3}RM$": "Military Trailer",
+        "^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\d{3}BM$|^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/\\d{3}BM$": "Military Semi Trailer",
+        "^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(S|L|X)\\d{4}$|^(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|\\u0110|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(S|L|X)\\/\\d{4}$": "Special Purpose Motorcycle"
+    }
+}

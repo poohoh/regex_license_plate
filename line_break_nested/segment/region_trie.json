@@ -1,0 +1,103 @@
+{
+    "region": {
+        "1": {
+            "1": "Cao Bang",
+            "2": "Lang Son",
+            "4": "Quang Ninh",
+            "5": "Hai Phong",
+            "6": "Hai Phong",
+            "7": "Thai Binh",
+            "8": "Nam Dinh",
+            "9": "Phu Tho"
+        },
+        "2": {
+            "0": "Thai Nguyen",
+            "1": "Yen Bai",
+            "2": "Tuyen Quang",
+            "3": "Ha Giang",
+            "4": "Lao Cai",
+            "5": "Lai Chau",
+            "6": "Son La",
+            "7": "Dien Bien",
+            "8": "Hoa Binh",
+            "9": "Ha Noi"
+        },
+        "3": {
+            "0": "Ha Noi",
+            "1": "Ha Noi",
+            "2": "Ha Noi",
+            "3": "Ha Noi",
+            "4": "Hai Duong",
+            "5": "Ninh Binh",
+            "6": "Thanh Hoa",
+            "7": "Nghe An",
+            "8": "Ha Tinh",
+            "9": "Dong Nai"
+        },
+        "4": {
+            "0": "Ha Noi",
+            "1": "Ho Chi Minh",
+            "3": "Da Nang",
+            "7": "Dak Lak",
+            "8": "Dak Nong",
+            "9": "Lam Dong"
+        },
+        "6": {
+            "0": "Dong Nai",
+            "1": "Binh Duong",
+            "2": "Long An",
+            "3": "Tien Giang",
+            "4": "Vinh Long",
+            "5": "Can Tho",
+            "6": "Dong Thap",
+            "7": "An Giang",
+            "8": "Kien Giang",
+            "9": "Ca Mau"
+        },
+        "5": {
+            "0": "Ho Chi Minh",
+            "1": "Ho Chi Minh",
+            "2": "Ho Chi Minh",
+            "3": "Ho Chi Minh",
+            "4": "Ho Chi Minh",
+            "5": "Ho Chi Minh",
+            "6": "Ho Chi Minh",
+            "7": "Ho Chi Minh",
+            "8": "Ho Chi Minh",
+            "9": "Ho Chi Minh"
+        },
+        "7": {
+            "0": "Tay Ninh",
+            "1": "Ben Tre",
+            "2": "Ba Ria Vung Tau",
+            "3": "Quang Binh",
+            "4": "Quang Tri",
+            "5": "Thua Thien Hue",
+            "6": "Quang Ngai",
+            "7": "Binh Dinh",
+            "8": "Phu Yen",
+            "9": "Khanh Hoa"
+        },
+        "8": {
+            "0": "Government",
+            "1": "Gia Lai",
+            "2": "Kon Tum",
+            "3": "Soc Trang",
+            "4": "Tra Vinh",
+            "5": "Ninh Thuan",
+            "6": "Binh Thuan",
+            "8": "Vinh Phuc",
+            "9": "Hung Yen"
+        },
+        "9": {
+            "0": "Ha Nam",
+            "2": "Quang Nam",
+            "3": "Binh Phuoc",
+            "4": "Bac Lieu",
+            "5": "Hau Giang",
+            "7": "Bac Kan",
+            "8": "Bac Giang",
+            "9": "Bac Ninh"
+        }
+    }
+}

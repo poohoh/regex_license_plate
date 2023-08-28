@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug my program",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/myprogram_release",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build my project (Release)",
+            "miDebuggerPath": "/path/to/gdb",  // gdb 경로 (환경에 따라 적절하게 수정)
+            "miDebuggerArgs": "",
+            "linux": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "/path/to/gdb"
+            },
+            "windows": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "/path/to/gdb.exe"
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            
+        }
+    ]
+}

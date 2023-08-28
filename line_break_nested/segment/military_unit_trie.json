@@ -1,0 +1,82 @@
+{
+    "military_unit": {
+        "T": {
+            "M": "General Staff Department",
+            "C": "Political General Department",
+            "H": "Logistics General Department",
+            "T": "Technical General Department",
+            "K": "Defense Industry General Department",
+            "N": "General Department II"
+        },
+        "K": {
+            "A": "Military Region 1",
+            "B": "Military Region 2",
+            "C": "Military Region 3",
+            "D": "Military Region 4",
+            "V": "Military Region 5",
+            "P": "Military Region 7",
+            "K": "Military Region 9",
+            "T": "Hanoi Capital Command"
+        },
+        "A": {
+            "A": "Army Corps 1",
+            "B": "Army Corps 2",
+            "C": "Army Corps 3",
+            "D": "Army Corps 4",
+            "V": "Military Unit 11",
+            "T": "Military Unit 12",
+            "N": "Military Unit 15",
+            "X": "Military Unit 16",
+            "M": "Military Unit 18"
+        },
+        "Q": {
+            "A": "Air Defense",
+            "H": "Naval Service",
+            "B": "Border Guard Command",
+            "C": "Marine Police Command",
+            "M": "Command 86"
+        },
+        "B": {
+            "L": "Command for the Protection of Ho Chi Minh Mausoleum",
+            "B": "Armor and Mechanized Infantry Corps",
+            "C": "Engineering Corps",
+            "K": "Special Forces Corps",
+            "P": "Artillery Corps",
+            "H": "Chemical Corps",
+            "T": "Signal Corps"
+        },
+        "H": {
+            "A": "National Defense Academy",
+            "B": "Army Officer Academy",
+            "C": "Political Officer Academy",
+            "E": "Logistics Academy",
+            "D": "Military Technical Academy",
+            "H": "Military Medical Academy",
+            "T": "Army Officer School 1",
+            "Q": "Army Officer School 2",
+            "N": "Political Officer School"
+        },
+        "P": {
+            "A": "Foreign Affairs Department",
+            "G": "Vietnam Peacekeeping Department",
+            "K": "Government Office",
+            "Q": "Military Science and Technology Institute",
+            "M": "Defense Design Institute",
+            "X": "Viet-Russia Tropical Center"
+        },
+        "V": {
+            "T": "Military Telecommunication Group"
+        },
+        "C": {
+            "A": "General Company 36",
+            "B": "Military Commercial Joint Stock Bank",
+            "D": "Van Xuan General Import and Export Company",
+            "H": "Dong Bac General Company",
+            "M": "Thai Son General Company",
+            "N": "Military Housing and Urban Development General Company",
+            "P": "General Company 319",
+            "T": "Technical Application and Production Company",
+            "V": "Lung Lo Construction General Company"
+        }
+    }
+}
