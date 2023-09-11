@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build my project (Release)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-O2",
+                "-DNDEBUG",
+                "vietnam_regex_nested.cpp",
+                "JSONSearch.cpp",
+                "-o",
+                "myprogram_release"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
