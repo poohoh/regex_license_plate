@@ -360,7 +360,7 @@
 
 
 
-alphabet = r"(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)"
+alphabet = r"(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)"  # Đ 문자는 지워둠.
 line_break = r"\/"
 
 
@@ -573,11 +573,11 @@ tractor = r"^\d{2}MK[1-9]" + line_break + r"?\d{4,5}$"
 
 # MĐ1 ~ MĐ9 - electric motorcycles
 # 전기 오토바이 (현재와 이전 버전을 의미)
-electric_motorcycle = r"^\d{2}MĐ[1-9]" + line_break + r"?\d{4,5}$"
+# electric_motorcycle = r"^\d{2}MĐ[1-9]" + line_break + r"?\d{4,5}$"
 
 # TĐ - domestically produced or assembled mechanical vehicles for pilot deployment
 # 베트남에서 생산, 조립된 차량에 대한 시험 운행 (자동차와 오토바이 모두?)
-domestic_pilot_deployment = r"^\d{2}TĐ" + line_break + r"?\d{4,5}$"
+# domestic_pilot_deployment = r"^\d{2}TĐ" + line_break + r"?\d{4,5}$"
 
 # HC - cars with limited operational scope
 # 운행 제한 차량. 특정 지역이나 시간대 등의 조건 하에서만 운행 (현재와 이전 버전의 자동차)
@@ -598,8 +598,8 @@ special_series = {
     project_management : "Project Management",
     trailer : "Trailer",
     tractor : "Tractor",
-    electric_motorcycle : "Electric Motorcycle",
-    domestic_pilot_deployment : "Domestic Pilot Deployment",
+    # electric_motorcycle : "Electric Motorcycle",
+    # domestic_pilot_deployment : "Domestic Pilot Deployment",
     limited_operational_car : "Limited Operational Car",
     event_vehicle : "Event Vehicle"
 }
@@ -2528,11 +2528,13 @@ vietnam_special_car_2 = r"^\d{2}" + car_special_series_2 + line_break + r"?\d{5}
 
 
 # vietnam motorcycle type
-exception_1 = r"KT|LD|DA|TĐ|HC|MK|LB"  # special series와 경제 특구(경제 특구는 일단 LB만 추가됨)
-exception_2 = r"NG|QT|CV|NN|KT|LD|DA|TĐ|HC|MK|LB|RM"  # 5자리 형식에서 RM, 외국인 등록시리즈 제외
+# exception_1 = r"KT|LD|DA|TĐ|HC|MK|LB"  # special series와 경제 특구(경제 특구는 일단 LB만 추가됨)
+# exception_2 = r"NG|QT|CV|NN|KT|LD|DA|TĐ|HC|MK|LB|RM"  # 5자리 형식에서 RM, 외국인 등록시리즈 제외
+exception_1 = r"KT|LD|DA|HC|MK|LB"  # special series와 경제 특구(경제 특구는 일단 LB만 추가됨)
+exception_2 = r"NG|QT|CV|NN|KT|LD|DA|HC|MK|LB|RM"  # 5자리 형식에서 RM, 외국인 등록시리즈 제외
 vietnam_motorcycle_1 = r"^\d{2}(?:(?!" + exception_1 + r")" + alphabet + r"(\d|" + alphabet + r"))" + line_break + r"\d{4}$"
 vietnam_motorcycle_2 = r"^\d{2}(?:(?!" + exception_2 + r")" + alphabet + r"(\d|" + alphabet + r"))" + line_break + r"\d{5}$"
-vietnam_motorcycle_3 = r"^\d{2}MĐ\d" + line_break + r"\d{4,5}$"  # electric motorcycle
+# vietnam_motorcycle_3 = r"^\d{2}MĐ\d" + line_break + r"\d{4,5}$"  # electric motorcycle
 
 
 # foreign car type
@@ -2596,7 +2598,7 @@ vehicle_type = {
 
     vietnam_motorcycle_1 : "Vietnam Motorcycle",
     vietnam_motorcycle_2 : "Vietnam Motorcycle",
-    vietnam_motorcycle_3 : "Vietnam Motorcycle",
+    # vietnam_motorcycle_3 : "Vietnam Motorcycle",
 
 
     affairs_ambassador : "Affairs Ambassador Car",

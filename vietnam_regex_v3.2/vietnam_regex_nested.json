@@ -108,8 +108,6 @@
         "^\\d{2}DA\\/?\\d{4,5}$": "Project Management",
         "^\\d{2}R\\/?\\d{4,5}$|^\\d{2}RM\\/?\\d{5}$": "Trailer",
         "^\\d{2}MK[1-9]\\/?\\d{4,5}$": "Tractor",
-        "^\\d{2}MĐ[1-9]\\/?\\d{4,5}$": "Electric Motorcycle",
-        "^\\d{2}TĐ\\/?\\d{4,5}$": "Domestic Pilot Deployment",
         "^\\d{2}HC\\/?\\d{4,5}$": "Limited Operational Car",
         "^\\d{2}\\/?\\d{5}$": "Event Vehicle"
     },
@@ -1147,13 +1145,12 @@
         }
     },
     "vehicle_type": {
-        "^\\d{2}(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\d{4,5}$": "Vietnam Car",
-        "^\\d{2}(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/\\d{4,5}$": "Vietnam Car",
+        "^\\d{2}(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\d{4,5}$": "Vietnam Car",
+        "^\\d{2}(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/\\d{4,5}$": "Vietnam Car",
         "^\\d{2}(MK\\d|HC)\\/?\\d{4}$": "Vietnam Car",
         "^\\d{2}(MK\\d|HC|RM)\\/?\\d{5}$": "Vietnam Car",
-        "^\\d{2}(?:(?!KT|LD|DA|TĐ|HC|MK|LB)(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(\\d|(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)))\\/\\d{4}$": "Vietnam Motorcycle",
-        "^\\d{2}(?:(?!NG|QT|CV|NN|KT|LD|DA|TĐ|HC|MK|LB|RM)(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(\\d|(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)))\\/\\d{5}$": "Vietnam Motorcycle",
-        "^\\d{2}MĐ\\d\\/\\d{4,5}$": "Vietnam Motorcycle",
+        "^\\d{2}(?:(?!KT|LD|DA|HC|MK|LB)(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(\\d|(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)))\\/\\d{4}$": "Vietnam Motorcycle",
+        "^\\d{2}(?:(?!NG|QT|CV|NN|KT|LD|DA|HC|MK|LB|RM)(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(\\d|(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)))\\/\\d{5}$": "Vietnam Motorcycle",
         "^\\d{5}\\/?NG01$|^\\d{2}NG\\/?\\d{3}01$": "Affairs Ambassador Car",
         "^\\d{5}\\/?NG02$|^\\d{2}NG\\/?\\d{3}02$": "Affairs Vice Ambassador Car",
         "^\\d{5}\\/?NG(0[3-9]|[1-9][0-9])$|^\\d{2}NG\\/?\\d{3}(0[3-9]|[1-9][0-9])$": "Affairs Staff Car",
@@ -1165,11 +1162,11 @@
         "^\\d{5}\\/?QT\\d{3}$|^\\d{2}QT\\/?\\d{6}$": "International Organization Staff Motorcycle",
         "^\\d{5}\\/?CV\\d{3}$|^\\d{2}CV\\/?\\d{6}$": "Administrative Technical Staff Motorcycle",
         "^\\d{5}\\/?NN\\d{3}$|^\\d{2}NN\\/?\\d{6}$": "Foreign Motorcycle",
-        "^(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/?\\d{4}$": "Military Car",
-        "^(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/?\\d{3}$": "Military Motorcycle",
-        "^(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/?\\d{3}RM$": "Military Trailer",
-        "^(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/?\\d{3}BM$": "Military Semi Trailer",
-        "^(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|Đ|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(S|L|X)\\/?\\d{4}$": "Special Purpose Military Motorcycle"
+        "^(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/?\\d{4}$": "Military Car",
+        "^(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/?\\d{3}$": "Military Motorcycle",
+        "^(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/?\\d{3}RM$": "Military Trailer",
+        "^(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)\\/?\\d{3}BM$": "Military Semi Trailer",
+        "^(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(A|B|C|D|E|F|G|H|K|L|M|N|P|Q|R|S|T|U|V|X|Y|Z)(S|L|X)\\/?\\d{4}$": "Special Purpose Military Motorcycle"
     },
     "military_unit": {
         "T": {
