@@ -1,2 +1,2 @@
 # regex_license_plate
-vietnam license plate matching using regex and trie structure
+match vietnam license plate using regex and trie structure
